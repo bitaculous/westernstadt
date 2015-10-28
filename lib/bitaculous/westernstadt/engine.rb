@@ -39,9 +39,9 @@ module Bitaculous
       # === Routes ===
 
       get '/' do
-        content_type 'text/html'
+        index = File.join settings.public_folder, 'index.html'
 
-        'Westernstadt!'
+        File.read index
       end
     end
   end
