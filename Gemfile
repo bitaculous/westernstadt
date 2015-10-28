@@ -13,6 +13,12 @@ gemspec
 
 gem 'thin', '~> 1.6.3'
 
+# === Development ===
+
+group :development do
+  gem 'guard-rspec', '~> 4.6.4', require: false
+end
+
 # === Test ===
 
 group :test do

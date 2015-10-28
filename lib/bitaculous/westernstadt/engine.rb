@@ -13,6 +13,8 @@ module Bitaculous
 
       set :root, File.expand_path('../../../../', __FILE__)
 
+      set :public_folder, Proc.new { File.join root, 'public' }
+
       set :version, Bitaculous::Westernstadt::VERSION
 
       # === Helpers ===
