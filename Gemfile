@@ -2,10 +2,12 @@
 
 source 'https://rubygems.org'
 
-# === Sinatra ===
+# Declare the gem's dependencies in `bitaculous-westernstadt.gemspec`. Bundler will treat runtime dependencies like base
+# dependencies, and development dependencies will be added by default to the `:development` group.
+gemspec
 
-gem 'sinatra',         '~> 1.4.6'
-gem 'sinatra-contrib', '~> 1.4.6'
+# Declare any dependencies that are still in development here instead of in the gemspec. Remember to move these
+# dependencies to the Gemspec before releasing the Gem.
 
 # === Rack ===
 
@@ -14,5 +16,20 @@ gem 'thin', '~> 1.6.3'
 # === Test ===
 
 group :test do
-  gem 'rubocop-rspec', '~> 1.3.1', require: false
+  # --- Code Analysis ---
+
+  gem 'rubocop',       '~> 0.34.1', require: false
+  gem 'rubocop-rspec', '~> 1.3.1',  require: false
+
+  # --- Code Coverage ---
+
+  gem 'simplecov', '~> 0.10.0', require: false
+end
+
+# === Misc ===
+
+group :misc do
+  # --- Formatter ---
+
+  gem 'nyan-cat-formatter', '~> 0.11', require: false
 end

@@ -1,11 +1,13 @@
 {
   "folders": [
     {
-      "name": "westernstadt",
+      "name": "bitaculous-westernstadt",
       "path": "./",
       "folder_exclude_patterns": [
         ".bundle",
-        "bin"
+        "coverage",
+        "pkg",
+        "tmp"
       ],
       "file_exclude_patterns": [
         ".keep"

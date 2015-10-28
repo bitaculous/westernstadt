@@ -1,6 +1,8 @@
 [Westernstadt]
 ==============
 
+**Only the facade counts.**
+
 Installation
 ------------
 
@@ -16,4 +18,4 @@ Westernstadt is released under the [MIT License (MIT)], see [LICENSE].
 [Gemnasium]: https://gemnasium.com/bitaculous/westernstadt "Westernstadt at Gemnasium"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/westernstadt/master/LICENSE "License"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
-[Westernstadt]: https://github.com/bitaculous/westernstadt
+[Westernstadt]: https://github.com/bitaculous/westernstadt "Only the facade counts."
